@@ -1,0 +1,30 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #0f0f0f;
+  color: #fff;
+  display: flex; justify-content: center; align-items: center;
+  min-height: 100vh; padding: 1rem;
+}
+.card {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  max-width: 360px; width: 100%;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+.logo { font-size: 3.5rem; margin-bottom: 0.5rem; line-height: 1; }
+h1 { font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem; letter-spacing: -0.02em; }
+.description { color: #aaa; font-size: 0.95rem; margin-bottom: 1.5rem; line-height: 1.4; }
+.links { display: flex; flex-direction: column; gap: 0.6rem; }
+.link {
+  display: flex; align-items: center; justify-content: center; gap: 0.5rem;
+  padding: 0.9rem 1rem; background: #2a2a2a; border: 1px solid #3a3a3a;
+  border-radius: 10px; color: #fff; text-decoration: none; font-weight: 600;
+  font-size: 0.95rem; transition: all 0.15s ease;
+}
+.link:active { transform: scale(0.98); }
+.link:hover, .link:focus { background: #333; border-color: #444; outline: none; }
+.footer { margin-top: 1.5rem; font-size: 0.75rem; color: #666; }
